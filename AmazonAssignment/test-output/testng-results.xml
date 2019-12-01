@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" ignored="0" total="4" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Properties File Loaded]]>
@@ -10,79 +10,428 @@
     <line>
       <![CDATA[Browser Window Maximized]]>
     </line>
+    <line>
+      <![CDATA[Loaded Base URL]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Web page to load]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Amazon Home Logo]]>
+    </line>
+    <line>
+      <![CDATA[Getting Title of Web Page]]>
+    </line>
+    <line>
+      <![CDATA[Title of Page is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Category Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Categories]]>
+    </line>
+    <line>
+      <![CDATA[Search Results :: Count:: 42]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Search Results :: Count:: 42]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Categories Found:]]>
+    </line>
+    <line>
+      <![CDATA[1 All Categories]]>
+    </line>
+    <line>
+      <![CDATA[2 Alexa Skills]]>
+    </line>
+    <line>
+      <![CDATA[3 Amazon Devices]]>
+    </line>
+    <line>
+      <![CDATA[4 Amazon Fashion]]>
+    </line>
+    <line>
+      <![CDATA[5 Amazon Fresh]]>
+    </line>
+    <line>
+      <![CDATA[6 Amazon Global Store]]>
+    </line>
+    <line>
+      <![CDATA[7 Amazon Pantry]]>
+    </line>
+    <line>
+      <![CDATA[8 Appliances]]>
+    </line>
+    <line>
+      <![CDATA[9 Apps & Games]]>
+    </line>
+    <line>
+      <![CDATA[10 Baby]]>
+    </line>
+    <line>
+      <![CDATA[11 Beauty]]>
+    </line>
+    <line>
+      <![CDATA[12 Books]]>
+    </line>
+    <line>
+      <![CDATA[13 Car & Motorbike]]>
+    </line>
+    <line>
+      <![CDATA[14 Clothing & Accessories]]>
+    </line>
+    <line>
+      <![CDATA[15 Collectibles]]>
+    </line>
+    <line>
+      <![CDATA[16 Computers & Accessories]]>
+    </line>
+    <line>
+      <![CDATA[17 Electronics]]>
+    </line>
+    <line>
+      <![CDATA[18 Furniture]]>
+    </line>
+    <line>
+      <![CDATA[19 Garden & Outdoors]]>
+    </line>
+    <line>
+      <![CDATA[20 Gift Cards]]>
+    </line>
+    <line>
+      <![CDATA[21 Grocery & Gourmet Foods]]>
+    </line>
+    <line>
+      <![CDATA[22 Health & Personal Care]]>
+    </line>
+    <line>
+      <![CDATA[23 Home & Kitchen]]>
+    </line>
+    <line>
+      <![CDATA[24 Industrial & Scientific]]>
+    </line>
+    <line>
+      <![CDATA[25 Jewellery]]>
+    </line>
+    <line>
+      <![CDATA[26 Kindle Store]]>
+    </line>
+    <line>
+      <![CDATA[27 Luggage & Bags]]>
+    </line>
+    <line>
+      <![CDATA[28 Luxury Beauty]]>
+    </line>
+    <line>
+      <![CDATA[29 Movies & TV Shows]]>
+    </line>
+    <line>
+      <![CDATA[30 Music]]>
+    </line>
+    <line>
+      <![CDATA[31 Musical Instruments]]>
+    </line>
+    <line>
+      <![CDATA[32 Office Products]]>
+    </line>
+    <line>
+      <![CDATA[33 Pet Supplies]]>
+    </line>
+    <line>
+      <![CDATA[34 Prime Video]]>
+    </line>
+    <line>
+      <![CDATA[35 Shoes & Handbags]]>
+    </line>
+    <line>
+      <![CDATA[36 Software]]>
+    </line>
+    <line>
+      <![CDATA[37 Sports, Fitness & Outdoors]]>
+    </line>
+    <line>
+      <![CDATA[38 Tools & Home Improvement]]>
+    </line>
+    <line>
+      <![CDATA[39 Toys & Games]]>
+    </line>
+    <line>
+      <![CDATA[40 Under ₹500]]>
+    </line>
+    <line>
+      <![CDATA[41 Video Games]]>
+    </line>
+    <line>
+      <![CDATA[42 Watches]]>
+    </line>
+    <line>
+      <![CDATA[***** Success verifyShoppingCategory test has passed *****]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Searching in Search Box]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Search Input Box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Getting Search results count]]>
+    </line>
+    <line>
+      <![CDATA[Search results found : 4,000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Prime only checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Only Prime]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Prime Results]]>
+    </line>
+    <line>
+      <![CDATA[Getting total results returned on page for prime]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Total Results Filtered :: Count:: 20]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Getting total results which are only prime on page]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Total Content with Prime Icon :: Count:: 20]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if all results returned are prime]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Prime Checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Only Prime]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Prime Results]]>
+    </line>
+    <line>
+      <![CDATA[Getting results size on page after unchecking prime]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Total Results Filtered :: Count:: 29]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if search results list is changed]]>
+    </line>
+    <line>
+      <![CDATA[***** Success verifySearch test has passed *****]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Sort Filter]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Sort Filter]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Filter Option for Low To High]]>
+    </line>
+    <line>
+      <![CDATA[Getting Result Names and prices after Sorting]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Item : 1 :: Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor) Price : Rs. 231]]>
+    </line>
+    <line>
+      <![CDATA[Item : 2 :: Quantum QHM6642 4 Port Hi-Speed USB Hub (Black) Price : Rs. 194]]>
+    </line>
+    <line>
+      <![CDATA[Item : 3 :: QUANTUM QHM6660 4-Port USB Hub (White) Price : Rs. 192]]>
+    </line>
+    <line>
+      <![CDATA[Item : 4 :: Terabyte 4 Port USB 3.0/2.0 Hub (White) Price : Rs. 212]]>
+    </line>
+    <line>
+      <![CDATA[Item : 5 :: Quantum QHM6633 4 Port Hi-Speed USB Hub (White) Price : Rs. 149]]>
+    </line>
+    <line>
+      <![CDATA[Item : 6 :: durReey 4 Port 2.0 High Speed Single Switch B3+1 USB Hub (Black) Price : Rs. 149]]>
+    </line>
+    <line>
+      <![CDATA[Item : 7 :: durReey 4 Port 2.0 High Speed Single Switch 3+1 USB Hub (White) Price : Rs. 149]]>
+    </line>
+    <line>
+      <![CDATA[Item : 8 :: S3S Terabyte USB 3.0, 4 Port USB Hub (White, M_Edge_29) Price : Rs. 212]]>
+    </line>
+    <line>
+      <![CDATA[Item : 9 :: Quantum QHM6660 4 Port Hi-Speed USB Hub with Power Switch (White) Price : Rs. 197]]>
+    </line>
+    <line>
+      <![CDATA[Item : 10 :: Quantum MST-1007-3 4-Port USB 2.0 USB Hub (Black) Price : Rs. 154]]>
+    </line>
+    <line>
+      <![CDATA[=========================================================]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if Items are listed in Ascending Price Order]]>
+    </line>
+    <line>
+      <![CDATA[Current first Value to compare 231]]>
+    </line>
+    <line>
+      <![CDATA[Current second Value to compare 194]]>
+    </line>
+    <line>
+      <![CDATA[***** Error verifySortLowToHighPrice test has failed *****]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[***Placed screen shot in D:\mohakgit\AmazonAssignment\Screenshots\Failed ***]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Item names]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:First Searched Item]]>
+    </line>
+    <line>
+      <![CDATA[First Item: Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Second Searched Item]]>
+    </line>
+    <line>
+      <![CDATA[Second Item: Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+    </line>
+    <line>
+      <![CDATA[Getting all the tabs opened after clicking on Item]]>
+    </line>
+    <line>
+      <![CDATA[No Of tabs::: 2]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Item Detail tab of Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+    </line>
+    <line>
+      <![CDATA[Adding Item to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Add to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Closing tab of Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Search results tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Second Searched Item]]>
+    </line>
+    <line>
+      <![CDATA[Getting new opened tab]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Item Detail tab of Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)]]>
+    </line>
+    <line>
+      <![CDATA[Enter in wait method:Add to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Add to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:No. of Items in Cart]]>
+    </line>
+    <line>
+      <![CDATA[Items in cart= 2]]>
+    </line>
+    <line>
+      <![CDATA[Verifying number of items reflected in cart]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Enter in click method:Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Getting names of all items in Cart]]>
+    </line>
+    <line>
+      <![CDATA[List of Text: [Quantum QHM6642 4 Port Hi-Speed USB Hub (Black), Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor) is presnt]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if Quantum QHM6642 4 Port Hi-Speed USB Hub (Black) is presnt]]>
+    </line>
+    <line>
+      <![CDATA[***** Success verifyAddToCart test has passed *****]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="311164" started-at="2019-12-01T07:42:24Z" finished-at="2019-12-01T07:47:36Z">
+  <suite name="Suite" duration-ms="133880" started-at="2019-12-01T08:27:38Z" finished-at="2019-12-01T08:29:52Z">
     <groups>
     </groups>
-    <test name="EdgeTest" duration-ms="311164" started-at="2019-12-01T07:42:24Z" finished-at="2019-12-01T07:47:36Z">
+    <test name="ChromeTest" duration-ms="133880" started-at="2019-12-01T08:27:38Z" finished-at="2019-12-01T08:29:52Z">
       <class name="testscripts.AmzonSearch">
-        <test-method status="FAIL" signature="initiateBrowser(java.lang.String)[pri:0, instance:testscripts.AmzonSearch@769c9116]" name="initiateBrowser" is-config="true" duration-ms="311152" started-at="2019-12-01T07:42:24Z" finished-at="2019-12-01T07:47:36Z">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:testscripts.AmzonSearch@53b32d7]" name="initiateBrowser" is-config="true" duration-ms="15897" started-at="2019-12-01T08:27:38Z" finished-at="2019-12-01T08:27:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
               <![CDATA[Properties File Loaded]]>
@@ -93,115 +442,290 @@ at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
             <line>
               <![CDATA[Browser Window Maximized]]>
             </line>
+            <line>
+              <![CDATA[Loaded Base URL]]>
+            </line>
           </reporter-output>
         </test-method> <!-- initiateBrowser -->
-        <test-method status="SKIP" signature="verifyShoppingCategory()[pri:1, instance:testscripts.AmzonSearch@769c9116]" name="verifyShoppingCategory" duration-ms="0" started-at="2019-12-01T07:47:36Z" finished-at="2019-12-01T07:47:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="verifyShoppingCategory()[pri:1, instance:testscripts.AmzonSearch@53b32d7]" name="verifyShoppingCategory" duration-ms="2686" started-at="2019-12-01T08:27:54Z" finished-at="2019-12-01T08:27:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[Waiting for Web page to load]]>
+            </line>
+            <line>
+              <![CDATA[Enter in wait method:Amazon Home Logo]]>
+            </line>
+            <line>
+              <![CDATA[Getting Title of Web Page]]>
+            </line>
+            <line>
+              <![CDATA[Title of Page is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Category Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Enter in wait method:Categories]]>
+            </line>
+            <line>
+              <![CDATA[Search Results :: Count:: 42]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Search Results :: Count:: 42]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Categories Found:]]>
+            </line>
+            <line>
+              <![CDATA[1 All Categories]]>
+            </line>
+            <line>
+              <![CDATA[2 Alexa Skills]]>
+            </line>
+            <line>
+              <![CDATA[3 Amazon Devices]]>
+            </line>
+            <line>
+              <![CDATA[4 Amazon Fashion]]>
+            </line>
+            <line>
+              <![CDATA[5 Amazon Fresh]]>
+            </line>
+            <line>
+              <![CDATA[6 Amazon Global Store]]>
+            </line>
+            <line>
+              <![CDATA[7 Amazon Pantry]]>
+            </line>
+            <line>
+              <![CDATA[8 Appliances]]>
+            </line>
+            <line>
+              <![CDATA[9 Apps & Games]]>
+            </line>
+            <line>
+              <![CDATA[10 Baby]]>
+            </line>
+            <line>
+              <![CDATA[11 Beauty]]>
+            </line>
+            <line>
+              <![CDATA[12 Books]]>
+            </line>
+            <line>
+              <![CDATA[13 Car & Motorbike]]>
+            </line>
+            <line>
+              <![CDATA[14 Clothing & Accessories]]>
+            </line>
+            <line>
+              <![CDATA[15 Collectibles]]>
+            </line>
+            <line>
+              <![CDATA[16 Computers & Accessories]]>
+            </line>
+            <line>
+              <![CDATA[17 Electronics]]>
+            </line>
+            <line>
+              <![CDATA[18 Furniture]]>
+            </line>
+            <line>
+              <![CDATA[19 Garden & Outdoors]]>
+            </line>
+            <line>
+              <![CDATA[20 Gift Cards]]>
+            </line>
+            <line>
+              <![CDATA[21 Grocery & Gourmet Foods]]>
+            </line>
+            <line>
+              <![CDATA[22 Health & Personal Care]]>
+            </line>
+            <line>
+              <![CDATA[23 Home & Kitchen]]>
+            </line>
+            <line>
+              <![CDATA[24 Industrial & Scientific]]>
+            </line>
+            <line>
+              <![CDATA[25 Jewellery]]>
+            </line>
+            <line>
+              <![CDATA[26 Kindle Store]]>
+            </line>
+            <line>
+              <![CDATA[27 Luggage & Bags]]>
+            </line>
+            <line>
+              <![CDATA[28 Luxury Beauty]]>
+            </line>
+            <line>
+              <![CDATA[29 Movies & TV Shows]]>
+            </line>
+            <line>
+              <![CDATA[30 Music]]>
+            </line>
+            <line>
+              <![CDATA[31 Musical Instruments]]>
+            </line>
+            <line>
+              <![CDATA[32 Office Products]]>
+            </line>
+            <line>
+              <![CDATA[33 Pet Supplies]]>
+            </line>
+            <line>
+              <![CDATA[34 Prime Video]]>
+            </line>
+            <line>
+              <![CDATA[35 Shoes & Handbags]]>
+            </line>
+            <line>
+              <![CDATA[36 Software]]>
+            </line>
+            <line>
+              <![CDATA[37 Sports, Fitness & Outdoors]]>
+            </line>
+            <line>
+              <![CDATA[38 Tools & Home Improvement]]>
+            </line>
+            <line>
+              <![CDATA[39 Toys & Games]]>
+            </line>
+            <line>
+              <![CDATA[40 Under ₹500]]>
+            </line>
+            <line>
+              <![CDATA[41 Video Games]]>
+            </line>
+            <line>
+              <![CDATA[42 Watches]]>
+            </line>
+            <line>
+              <![CDATA[***** Success verifyShoppingCategory test has passed *****]]>
+            </line>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyShoppingCategory -->
-        <test-method status="SKIP" signature="verifySearch()[pri:2, instance:testscripts.AmzonSearch@769c9116]" name="verifySearch" duration-ms="0" started-at="2019-12-01T07:47:36Z" finished-at="2019-12-01T07:47:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="PASS" signature="verifySearch()[pri:2, instance:testscripts.AmzonSearch@53b32d7]" name="verifySearch" duration-ms="25017" started-at="2019-12-01T08:27:57Z" finished-at="2019-12-01T08:28:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Searching in Search Box]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Search Input Box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Search Button]]>
+            </line>
+            <line>
+              <![CDATA[Getting Search results count]]>
+            </line>
+            <line>
+              <![CDATA[Search results found : 4,000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Prime only checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Only Prime]]>
+            </line>
+            <line>
+              <![CDATA[Enter in wait method:Prime Results]]>
+            </line>
+            <line>
+              <![CDATA[Getting total results returned on page for prime]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Total Results Filtered :: Count:: 20]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Getting total results which are only prime on page]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Total Content with Prime Icon :: Count:: 20]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if all results returned are prime]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Prime Checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Only Prime]]>
+            </line>
+            <line>
+              <![CDATA[Enter in wait method:Prime Results]]>
+            </line>
+            <line>
+              <![CDATA[Getting results size on page after unchecking prime]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Total Results Filtered :: Count:: 29]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if search results list is changed]]>
+            </line>
+            <line>
+              <![CDATA[***** Success verifySearch test has passed *****]]>
+            </line>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method status="FAIL" signature="verifySortLowToHighPrice()[pri:3, instance:testscripts.AmzonSearch@53b32d7]" name="verifySortLowToHighPrice" duration-ms="7336" started-at="2019-12-01T08:28:23Z" finished-at="2019-12-01T08:28:30Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testscripts.AmzonSearch.verifySortLowToHighPrice(AmzonSearch.java:140)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -214,144 +738,180 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Enter in wait method:Sort Filter]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Sort Filter]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Filter Option for Low To High]]>
+            </line>
+            <line>
+              <![CDATA[Getting Result Names and prices after Sorting]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Item : 1 :: Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor) Price : Rs. 231]]>
+            </line>
+            <line>
+              <![CDATA[Item : 2 :: Quantum QHM6642 4 Port Hi-Speed USB Hub (Black) Price : Rs. 194]]>
+            </line>
+            <line>
+              <![CDATA[Item : 3 :: QUANTUM QHM6660 4-Port USB Hub (White) Price : Rs. 192]]>
+            </line>
+            <line>
+              <![CDATA[Item : 4 :: Terabyte 4 Port USB 3.0/2.0 Hub (White) Price : Rs. 212]]>
+            </line>
+            <line>
+              <![CDATA[Item : 5 :: Quantum QHM6633 4 Port Hi-Speed USB Hub (White) Price : Rs. 149]]>
+            </line>
+            <line>
+              <![CDATA[Item : 6 :: durReey 4 Port 2.0 High Speed Single Switch B3+1 USB Hub (Black) Price : Rs. 149]]>
+            </line>
+            <line>
+              <![CDATA[Item : 7 :: durReey 4 Port 2.0 High Speed Single Switch 3+1 USB Hub (White) Price : Rs. 149]]>
+            </line>
+            <line>
+              <![CDATA[Item : 8 :: S3S Terabyte USB 3.0, 4 Port USB Hub (White, M_Edge_29) Price : Rs. 212]]>
+            </line>
+            <line>
+              <![CDATA[Item : 9 :: Quantum QHM6660 4 Port Hi-Speed USB Hub with Power Switch (White) Price : Rs. 197]]>
+            </line>
+            <line>
+              <![CDATA[Item : 10 :: Quantum MST-1007-3 4-Port USB 2.0 USB Hub (Black) Price : Rs. 154]]>
+            </line>
+            <line>
+              <![CDATA[=========================================================]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if Items are listed in Ascending Price Order]]>
+            </line>
+            <line>
+              <![CDATA[Current first Value to compare 231]]>
+            </line>
+            <line>
+              <![CDATA[Current second Value to compare 194]]>
+            </line>
+            <line>
+              <![CDATA[***** Error verifySortLowToHighPrice test has failed *****]]>
+            </line>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[***Placed screen shot in D:\mohakgit\AmazonAssignment\Screenshots\Failed ***]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifySearch -->
-        <test-method status="SKIP" signature="terminateBrowser()[pri:0, instance:testscripts.AmzonSearch@769c9116]" name="terminateBrowser" is-config="true" duration-ms="0" started-at="2019-12-01T07:47:36Z" finished-at="2019-12-01T07:47:36Z">
+        </test-method> <!-- verifySortLowToHighPrice -->
+        <test-method status="PASS" signature="verifyAddToCart()[pri:4, instance:testscripts.AmzonSearch@53b32d7]" name="verifyAddToCart" duration-ms="80452" started-at="2019-12-01T08:28:31Z" finished-at="2019-12-01T08:29:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter in wait method:Item names]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:First Searched Item]]>
+            </line>
+            <line>
+              <![CDATA[First Item: Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Second Searched Item]]>
+            </line>
+            <line>
+              <![CDATA[Second Item: Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+            </line>
+            <line>
+              <![CDATA[Getting all the tabs opened after clicking on Item]]>
+            </line>
+            <line>
+              <![CDATA[No Of tabs::: 2]]>
+            </line>
+            <line>
+              <![CDATA[Switching to Item Detail tab of Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+            </line>
+            <line>
+              <![CDATA[Adding Item to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Add to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Closing tab of Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]>
+            </line>
+            <line>
+              <![CDATA[Switching to Search results tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Second Searched Item]]>
+            </line>
+            <line>
+              <![CDATA[Getting new opened tab]]>
+            </line>
+            <line>
+              <![CDATA[Switching to Item Detail tab of Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)]]>
+            </line>
+            <line>
+              <![CDATA[Enter in wait method:Add to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Add to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:No. of Items in Cart]]>
+            </line>
+            <line>
+              <![CDATA[Items in cart= 2]]>
+            </line>
+            <line>
+              <![CDATA[Verifying number of items reflected in cart]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Enter in click method:Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Getting names of all items in Cart]]>
+            </line>
+            <line>
+              <![CDATA[List of Text: [Quantum QHM6642 4 Port Hi-Speed USB Hub (Black), Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor) is presnt]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if Quantum QHM6642 4 Port Hi-Speed USB Hub (Black) is presnt]]>
+            </line>
+            <line>
+              <![CDATA[***** Success verifyAddToCart test has passed *****]]>
+            </line>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:testscripts.AmzonSearch@53b32d7]" name="terminateBrowser" is-config="true" duration-ms="704" started-at="2019-12-01T08:29:51Z" finished-at="2019-12-01T08:29:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-        <test-method status="SKIP" signature="verifyAddToCart()[pri:4, instance:testscripts.AmzonSearch@769c9116]" name="verifyAddToCart" duration-ms="0" started-at="2019-12-01T07:47:36Z" finished-at="2019-12-01T07:47:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddToCart -->
-        <test-method status="SKIP" signature="verifySortLowToHighPrice()[pri:3, instance:testscripts.AmzonSearch@769c9116]" name="verifySortLowToHighPrice" duration-ms="0" started-at="2019-12-01T07:47:36Z" finished-at="2019-12-01T07:47:36Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SCAN-IT-PDC206', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySortLowToHighPrice -->
       </class> <!-- testscripts.AmzonSearch -->
-    </test> <!-- EdgeTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

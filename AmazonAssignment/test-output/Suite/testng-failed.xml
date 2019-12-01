@@ -4,19 +4,16 @@
   <listeners>
     <listener class-name="common.TestListener"/>
   </listeners>
-  <test thread-count="5" name="EdgeTest(failed)">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testscripts.AmzonSearch">
         <methods>
-          <include name="verifyShoppingCategory"/>
           <include name="initiateBrowser"/>
-          <include name="verifyAddToCart"/>
           <include name="verifySortLowToHighPrice"/>
-          <include name="verifySearch"/>
           <include name="terminateBrowser"/>
         </methods>
       </class> <!-- testscripts.AmzonSearch -->
     </classes>
-  </test> <!-- EdgeTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

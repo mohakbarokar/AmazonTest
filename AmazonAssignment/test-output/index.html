@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\Ass\AmazonTest\InstaAssignment-master\src\suites\AmazonTestSuite.xml</span>
+                    <span>D:\mohakgit\AmazonAssignment\src\suites\AmazonTestSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,36 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  4 skipped,  </span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testscripts.AmzonSearch" hash-for-method="verifySortLowToHighPrice">verifySortLowToHighPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testscripts.AmzonSearch" hash-for-method="verifyAddToCart">verifyAddToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testscripts.AmzonSearch" hash-for-method="verifySearch">verifySearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testscripts.AmzonSearch" hash-for-method="verifyShoppingCategory">verifyShoppingCategory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testscripts.AmzonSearch" hash-for-method="verifySortLowToHighPrice">verifySortLowToHighPrice</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -132,9 +141,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">testscripts.AmzonSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortLowToHighPrice">
+                  </a> <!-- verifySortLowToHighPrice -->
+                  <span class="method-name">verifySortLowToHighPrice</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testscripts.AmzonSearch.verifySortLowToHighPrice(AmzonSearch.java:140)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testscripts.AmzonSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,26 +171,6 @@
                   <a name="verifyAddToCart">
                   </a> <!-- verifyAddToCart -->
                   <span class="method-name">verifyAddToCart</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SCAN-IT-PDC206&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-	at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -170,26 +178,6 @@ Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
                   <a name="verifySearch">
                   </a> <!-- verifySearch -->
                   <span class="method-name">verifySearch</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SCAN-IT-PDC206&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-	at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -197,61 +185,14 @@ Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
                   <a name="verifyShoppingCategory">
                   </a> <!-- verifyShoppingCategory -->
                   <span class="method-name">verifyShoppingCategory</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SCAN-IT-PDC206&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-	at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySortLowToHighPrice">
-                  </a> <!-- verifySortLowToHighPrice -->
-                  <span class="method-name">verifySortLowToHighPrice</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timeout (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SCAN-IT-PDC206&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 40.15063.674.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
-Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at setupconfig.BaseTestScript.initiateBrowser(BaseTestScript.java:93)
-	at testNgExecutor.SuiteExecutor.main(SuiteExecutor.java:20)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Ass\AmazonTest\InstaAssignment-master\src\suites\AmazonTestSuite.xml</span>
+            <span class="header-content">D:\mohakgit\AmazonAssignment\src\suites\AmazonTestSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -261,12 +202,12 @@ Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
   &lt;listeners&gt;
     &lt;listener class-name=&quot;common.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testscripts.AmzonSearch&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -278,7 +219,7 @@ Session ID: 6A69B427-1D5B-4BE7-8A0F-78EFA65F3716
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">EdgeTest (1 class)</span>
+                <span class="test-name">ChromeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -308,24 +249,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyAddToCart')
 data.setCell(0, 2, 'testscripts.AmzonSearch')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 80452);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifySearch')
 data.setCell(1, 2, 'testscripts.AmzonSearch')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 25017);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifySortLowToHighPrice')
 data.setCell(2, 2, 'testscripts.AmzonSearch')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 7336);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyShoppingCategory')
 data.setCell(3, 2, 'testscripts.AmzonSearch')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 2686);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -336,6 +277,161 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching in Search Box</span>
+                <span class="reporter-method-output">Enter in click method:Search Input Box</span>
+                <span class="reporter-method-output">Clicking on Search button</span>
+                <span class="reporter-method-output">Enter in click method:Search Button</span>
+                <span class="reporter-method-output">Getting Search results count</span>
+                <span class="reporter-method-output">Search results found : 4,000</span>
+                <span class="reporter-method-output">Clicking on Prime only checkbox</span>
+                <span class="reporter-method-output">Enter in click method:Only Prime</span>
+                <span class="reporter-method-output">Enter in wait method:Prime Results</span>
+                <span class="reporter-method-output">Getting total results returned on page for prime</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Total Results Filtered :: Count:: 20</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Getting total results which are only prime on page</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Total Content with Prime Icon :: Count:: 20</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Verifying if all results returned are prime</span>
+                <span class="reporter-method-output">Clicking on Prime Checkbox</span>
+                <span class="reporter-method-output">Enter in click method:Only Prime</span>
+                <span class="reporter-method-output">Enter in wait method:Prime Results</span>
+                <span class="reporter-method-output">Getting results size on page after unchecking prime</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Total Results Filtered :: Count:: 29</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Verifying if search results list is changed</span>
+                <span class="reporter-method-output">***** Success verifySearch test has passed *****</span>
+                <span class="reporter-method-output">Properties File Loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyShoppingCategory</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Waiting for Web page to load</span>
+                <span class="reporter-method-output">Enter in wait method:Amazon Home Logo</span>
+                <span class="reporter-method-output">Getting Title of Web Page</span>
+                <span class="reporter-method-output">Title of Page is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</span>
+                <span class="reporter-method-output">Enter in click method:Category Dropdown</span>
+                <span class="reporter-method-output">Enter in wait method:Categories</span>
+                <span class="reporter-method-output">Search Results :: Count:: 42</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Search Results :: Count:: 42</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Categories Found:</span>
+                <span class="reporter-method-output">1 All Categories</span>
+                <span class="reporter-method-output">2 Alexa Skills</span>
+                <span class="reporter-method-output">3 Amazon Devices</span>
+                <span class="reporter-method-output">4 Amazon Fashion</span>
+                <span class="reporter-method-output">5 Amazon Fresh</span>
+                <span class="reporter-method-output">6 Amazon Global Store</span>
+                <span class="reporter-method-output">7 Amazon Pantry</span>
+                <span class="reporter-method-output">8 Appliances</span>
+                <span class="reporter-method-output">9 Apps & Games</span>
+                <span class="reporter-method-output">10 Baby</span>
+                <span class="reporter-method-output">11 Beauty</span>
+                <span class="reporter-method-output">12 Books</span>
+                <span class="reporter-method-output">13 Car & Motorbike</span>
+                <span class="reporter-method-output">14 Clothing & Accessories</span>
+                <span class="reporter-method-output">15 Collectibles</span>
+                <span class="reporter-method-output">16 Computers & Accessories</span>
+                <span class="reporter-method-output">17 Electronics</span>
+                <span class="reporter-method-output">18 Furniture</span>
+                <span class="reporter-method-output">19 Garden & Outdoors</span>
+                <span class="reporter-method-output">20 Gift Cards</span>
+                <span class="reporter-method-output">21 Grocery & Gourmet Foods</span>
+                <span class="reporter-method-output">22 Health & Personal Care</span>
+                <span class="reporter-method-output">23 Home & Kitchen</span>
+                <span class="reporter-method-output">24 Industrial & Scientific</span>
+                <span class="reporter-method-output">25 Jewellery</span>
+                <span class="reporter-method-output">26 Kindle Store</span>
+                <span class="reporter-method-output">27 Luggage & Bags</span>
+                <span class="reporter-method-output">28 Luxury Beauty</span>
+                <span class="reporter-method-output">29 Movies & TV Shows</span>
+                <span class="reporter-method-output">30 Music</span>
+                <span class="reporter-method-output">31 Musical Instruments</span>
+                <span class="reporter-method-output">32 Office Products</span>
+                <span class="reporter-method-output">33 Pet Supplies</span>
+                <span class="reporter-method-output">34 Prime Video</span>
+                <span class="reporter-method-output">35 Shoes & Handbags</span>
+                <span class="reporter-method-output">36 Software</span>
+                <span class="reporter-method-output">37 Sports, Fitness & Outdoors</span>
+                <span class="reporter-method-output">38 Tools & Home Improvement</span>
+                <span class="reporter-method-output">39 Toys & Games</span>
+                <span class="reporter-method-output">40 Under ₹500</span>
+                <span class="reporter-method-output">41 Video Games</span>
+                <span class="reporter-method-output">42 Watches</span>
+                <span class="reporter-method-output">***** Success verifyShoppingCategory test has passed *****</span>
+                <span class="reporter-method-output">Properties File Loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter in wait method:Item names</span>
+                <span class="reporter-method-output">Enter in click method:First Searched Item</span>
+                <span class="reporter-method-output">First Item: Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)</span>
+                <span class="reporter-method-output">Enter in click method:Second Searched Item</span>
+                <span class="reporter-method-output">Second Item: Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)</span>
+                <span class="reporter-method-output">Clicking on Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)</span>
+                <span class="reporter-method-output">Getting all the tabs opened after clicking on Item</span>
+                <span class="reporter-method-output">No Of tabs::: 2</span>
+                <span class="reporter-method-output">Switching to Item Detail tab of Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)</span>
+                <span class="reporter-method-output">Adding Item to Cart</span>
+                <span class="reporter-method-output">Enter in click method:Add to Cart</span>
+                <span class="reporter-method-output">Closing tab of Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)</span>
+                <span class="reporter-method-output">Switching to Search results tab</span>
+                <span class="reporter-method-output">Clicking on  Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)</span>
+                <span class="reporter-method-output">Enter in click method:Second Searched Item</span>
+                <span class="reporter-method-output">Getting new opened tab</span>
+                <span class="reporter-method-output">Switching to Item Detail tab of Quantum QHM6642 4 Port Hi-Speed USB Hub (Black)</span>
+                <span class="reporter-method-output">Enter in wait method:Add to Cart</span>
+                <span class="reporter-method-output">Enter in click method:Add to Cart</span>
+                <span class="reporter-method-output">Enter in click method:No. of Items in Cart</span>
+                <span class="reporter-method-output">Items in cart= 2</span>
+                <span class="reporter-method-output">Verifying number of items reflected in cart</span>
+                <span class="reporter-method-output">Navigating to Cart</span>
+                <span class="reporter-method-output">Enter in click method:Cart button</span>
+                <span class="reporter-method-output">Getting names of all items in Cart</span>
+                <span class="reporter-method-output">List of Text: [Quantum QHM6642 4 Port Hi-Speed USB Hub (Black), Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor)]</span>
+                <span class="reporter-method-output">Verifying if Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor) is presnt</span>
+                <span class="reporter-method-output">Verifying if Quantum QHM6642 4 Port Hi-Speed USB Hub (Black) is presnt</span>
+                <span class="reporter-method-output">***** Success verifyAddToCart test has passed *****</span>
+                <span class="reporter-method-output">Properties File Loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySortLowToHighPrice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter in wait method:Sort Filter</span>
+                <span class="reporter-method-output">Enter in click method:Sort Filter</span>
+                <span class="reporter-method-output">Enter in click method:Filter Option for Low To High</span>
+                <span class="reporter-method-output">Getting Result Names and prices after Sorting</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Item : 1 :: Quantum QHM6633 4 Port Hi-Speed USB Hub (Multicolor) Price : Rs. 231</span>
+                <span class="reporter-method-output">Item : 2 :: Quantum QHM6642 4 Port Hi-Speed USB Hub (Black) Price : Rs. 194</span>
+                <span class="reporter-method-output">Item : 3 :: QUANTUM QHM6660 4-Port USB Hub (White) Price : Rs. 192</span>
+                <span class="reporter-method-output">Item : 4 :: Terabyte 4 Port USB 3.0/2.0 Hub (White) Price : Rs. 212</span>
+                <span class="reporter-method-output">Item : 5 :: Quantum QHM6633 4 Port Hi-Speed USB Hub (White) Price : Rs. 149</span>
+                <span class="reporter-method-output">Item : 6 :: durReey 4 Port 2.0 High Speed Single Switch B3+1 USB Hub (Black) Price : Rs. 149</span>
+                <span class="reporter-method-output">Item : 7 :: durReey 4 Port 2.0 High Speed Single Switch 3+1 USB Hub (White) Price : Rs. 149</span>
+                <span class="reporter-method-output">Item : 8 :: S3S Terabyte USB 3.0, 4 Port USB Hub (White, M_Edge_29) Price : Rs. 212</span>
+                <span class="reporter-method-output">Item : 9 :: Quantum QHM6660 4 Port Hi-Speed USB Hub with Power Switch (White) Price : Rs. 197</span>
+                <span class="reporter-method-output">Item : 10 :: Quantum MST-1007-3 4-Port USB 2.0 USB Hub (Black) Price : Rs. 154</span>
+                <span class="reporter-method-output">=========================================================</span>
+                <span class="reporter-method-output">Verifying if Items are listed in Ascending Price Order</span>
+                <span class="reporter-method-output">Current first Value to compare 231</span>
+                <span class="reporter-method-output">Current second Value to compare 194</span>
+                <span class="reporter-method-output">***** Error verifySortLowToHighPrice test has failed *****</span>
+                <span class="reporter-method-output">Properties File Loaded</span>
+                <span class="reporter-method-output">***Placed screen shot in D:\mohakgit\AmazonAssignment\Screenshots\Failed ***</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -353,27 +449,31 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testscripts.AmzonSearch</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">initiateBrowser(edge)</span>
+                <span class="method-name">initiateBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyShoppingCategory</span>
-                <span class="method-start">-1575186144931 ms</span>
+                <span class="method-start">15901 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySearch</span>
-                <span class="method-start">-1575186144931 ms</span>
+                <span class="method-start">19018 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifySortLowToHighPrice</span>
-                <span class="method-start">-1575186144931 ms</span>
+                <span class="method-start">44775 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyAddToCart</span>
-                <span class="method-start">-1575186144931 ms</span>
+                <span class="method-start">52395 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">terminateBrowser</span>
+                <span class="method-start">133170 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
