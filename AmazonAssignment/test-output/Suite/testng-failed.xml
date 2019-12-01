@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="common.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testscripts.AmzonSearch">
+        <methods>
+          <include name="verifyShoppingCategory"/>
+          <include name="initiateBrowser"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifySortLowToHighPrice"/>
+          <include name="verifySearch"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- testscripts.AmzonSearch -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
