@@ -33,3 +33,5 @@ Steps to Execute:
 --------------------------------------------
 Issues Faced:
 1. Search result elements for only prime content were tricky to get as only prime icon was reference to verify and not Text for being prime item. As the views of the results columns were dynamic I filtered out 2 Lists in which one returns rows of all the results found in page and another returns number of rows having prime icon present and verified if the count matches.
+
+2. For edge browser specific driver to windos os release version is required to run everything smoothly. So running script on edge becomes environment dependent execution
