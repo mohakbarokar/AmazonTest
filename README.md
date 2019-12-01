@@ -15,6 +15,8 @@ uicomponentscreens - Locator elements are placed in this package According to th
 This project contains TestData.Properties file from where screenshot manipulation, driver paths and URL's can be handled.
 
 Support of browsers : Chrome, firefox, edge and ie(due to legacy issues may hamper performance on some machines)
+Logger Used: TestNG Logger
+
 --------------------------------------------
 Website Issues:
 There are 4 Test cases added in scripts out of which 2 testScripts, "Verify Sorted Results" and "Check Only Prime content" are prone to give failures. As observed in website, Sometimes result list is not sorted according to "price low to high" filter and same applies for "prime content only" filter, Sometimes item which is not prime is listed in prime only search results.
